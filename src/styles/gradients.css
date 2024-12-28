@@ -1,0 +1,17 @@
+@layer utilities {
+  .gradient-primary {
+    @apply bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900;
+  }
+  
+  .gradient-card {
+    @apply bg-gradient-to-br from-white/10 to-white/5;
+  }
+  
+  .gradient-border {
+    @apply border border-white/10;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/10;
+  }
+}
