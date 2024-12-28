@@ -57,3 +57,5 @@ const ImageGeneratorDemo = () => {
     </div>
   );
 };
+
+export default ImageGeneratorDemo;
