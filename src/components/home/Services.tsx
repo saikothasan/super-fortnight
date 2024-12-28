@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Brain, Cube, Layers, Wand2 } from 'lucide-react';
+import { Brain, Layers, Wand2, Grid } from 'lucide-react';
 
 const services = [
   {
@@ -10,7 +10,7 @@ const services = [
     description: 'Leverage machine learning for innovative design solutions'
   },
   {
-    icon: Cube,
+    icon: Layers,
     title: '3D Modeling',
     description: 'Create stunning 3D models with precision and detail'
   },
