@@ -44,3 +44,5 @@ const ToolHero: React.FC<ToolHeroProps> = ({ tool }) => {
     </div>
   );
 };
+
+export default ToolHero;
